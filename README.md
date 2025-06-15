@@ -32,3 +32,13 @@ Este entorno está pensado para estudiantes, docentes y profesionales que deseen
    ```bash
    chmod +x electrosim-industrial.sh
    ./electrosim-industrial.sh
+
+   ## 📜 Licencia
+
+Este proyecto está bajo la licencia **Creative Commons CC BY-ND 4.0**.  
+Puedes compartirlo y usarlo para prácticas educativas, pero **no puedes modificar ni distribuir versiones alteradas**.
+
+🔗 [Ver términos de la licencia](https://creativecommons.org/licenses/by-nd/4.0/)
+
+© 2025 Ivanka Fernández Leivas
+
