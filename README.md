@@ -1,4 +1,4 @@
-# ⚡ ElectroSim Industrial
+⚡ ElectroSim Industrial
 
 **ElectroSim Industrial** es una máquina virtual educativa diseñada para simular cómo funciona una empresa eléctrica moderna en términos de automatización, monitoreo de consumo energético y ciberseguridad básica de infraestructuras críticas.
 
@@ -6,7 +6,7 @@ Este entorno está pensado para estudiantes, docentes y profesionales que deseen
 
 ---
 
-## 🧩 Componentes principales
+🧩 Componentes principales
 
 | Componente         | Descripción                                                                 |
 |--------------------|------------------------------------------------------------------------------|
@@ -21,7 +21,7 @@ Este entorno está pensado para estudiantes, docentes y profesionales que deseen
 
 ---
 
-## 🚀 Cómo usar
+ 🚀 Cómo usar
 
 1. **Descarga la máquina virtual `.ova` desde el enlace incluido en este repositorio** (hay versión con y sin entorno gráfico).
 2. **Importa la VM en VirtualBox**:
@@ -39,14 +39,14 @@ Este entorno está pensado para estudiantes, docentes y profesionales que deseen
 
 ---
 
-## 📦 Versiones disponibles
+📦 Versiones disponibles
 
 - `ElectroSim-Industrial.ova` → Versión básica (sin entorno gráfico)
 - `ElectroSim-Industrial-GUI.ova` → Versión con entorno gráfico XFCE
 
 ---
 
-## 📜 Licencia
+📜 Licencia
 
 Este proyecto está bajo la licencia **Creative Commons CC BY-ND 4.0**.  
 Puedes compartirlo y usarlo para prácticas educativas, pero **no puedes modificarlo ni redistribuir versiones alteradas**.
