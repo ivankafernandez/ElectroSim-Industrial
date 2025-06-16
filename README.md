@@ -46,7 +46,7 @@ Este entorno está pensado para estudiantes, docentes y profesionales que deseen
 
 ---
 
-📖 Consulta la carpeta [`docs/`](./docs) para conocer más sobre el diseño y las decisiones técnicas del proyecto.
+📖 Consulta la carpeta [`docs/`](./Doc) para conocer más sobre el diseño y las decisiones técnicas del proyecto.
 
 ---
 
