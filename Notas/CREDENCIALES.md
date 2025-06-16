@@ -16,8 +16,6 @@ Estas credenciales son válidas para **ambas versiones** de la máquina virtual:
 sudo passwd vboxuser
 ```
 
-- Si creas nuevas versiones de ElectroSim, asegúrate de **mantener esta información actualizada** en este archivo y en la documentación del repositorio.
-
 ---
 
 © 2025 Ivanka Fernández Leivas
