@@ -25,13 +25,21 @@ Este entorno está pensado para estudiantes, docentes y profesionales que deseen
 
 ## 🚀 Cómo usar
 
-1. Clona este repositorio o descarga el script principal:
-   - [`electrosim-industrial.sh`](./electrosim-industrial.sh)
+1. Descarga la máquina virtual desde el enlace proporcionado en este repositorio.
+2. Importa el archivo `.ova` en VirtualBox:
+   - **Archivo → Importar servicio virtualizado**
+   - Selecciona `ElectroSim-Industrial.ova` y sigue los pasos.
+3. Inicia la máquina y accede con las credenciales:
+   - **Usuario**: `vboxuser`
+   - **Contraseña**: `insecure`
+4. Abre tu navegador (desde el host) y accede a los siguientes servicios:
+   - **Grafana**: `http://<IP_VM>:3000`
+   - **Node-RED**: `http://<IP_VM>:1880`
+   - **InfluxDB** (si deseas conectar desde otra herramienta): `http://<IP_VM>:8086`
 
-2. Ejecuta el script en una máquina Ubuntu Server 22.04 limpia:
-   ```bash
-   chmod +x electrosim-industrial.sh
-   ./electrosim-industrial.sh
+> 💡 Recuerda sustituir `<IP_VM>` por la IP real de la máquina virtual (puedes verla con `ip a`).
+
+---
 
    ## 📜 Licencia
 
