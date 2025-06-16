@@ -10,6 +10,16 @@ Esta guía explica cómo importar la máquina virtual educativa **ElectroSim Ind
 - Al menos 4 GB de RAM disponibles
 - 15–20 GB de espacio libre en disco
 - Archivo: `ElectroSim-Industrial.ova` (descargar desde el enlace proporcionado en el repositorio)
+  
+---
+
+## 📥 Descarga la máquina virtual ElectroSim
+
+Puedes descargar el archivo `.ova` desde el siguiente enlace:
+
+🔗 [Descargar ElectroSim-Industrial.ova](https://drive.google.com/file/d/1npkY8r2pwsnP-QwDt3pgmkfhIqlqkbG4/view?usp=sharing)
+
+> ⚠️ Asegúrate de importar esta máquina en VirtualBox como se indica a continuación.
 
 ---
 
