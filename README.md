@@ -46,6 +46,10 @@ Este entorno está pensado para estudiantes, docentes y profesionales que deseen
 
 ---
 
+📖 Consulta la carpeta [`docs/`](./docs) para conocer más sobre el diseño y las decisiones técnicas del proyecto.
+
+---
+
 📜 Licencia
 
 Este proyecto está bajo la licencia **Creative Commons CC BY-ND 4.0**.  
