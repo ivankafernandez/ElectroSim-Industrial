@@ -1,73 +1,78 @@
-# 📥 Importar ElectroSim Industrial (.ova)
+📥 Importar ElectroSim Industrial (.ova)
 
-Esta guía explica cómo importar la máquina virtual educativa **ElectroSim Industrial**, creada por Ivanka Fernández Leivas, en VirtualBox. Esta VM está diseñada para simular entornos de empresas eléctricas con monitoreo, consumo y ciberseguridad básica.
+Esta guía explica cómo importar las máquinas virtuales educativas **ElectroSim Industrial**, creadas por Ivanka Fernández Leivas, en VirtualBox. Estas VMs están diseñadas para simular entornos eléctricos modernos con monitoreo, consumo y ciberseguridad básica.
 
 ---
 
-## 📦 Requisitos
+📁 Descarga de máquinas virtuales
 
-- VirtualBox instalado (v6.1 o superior recomendado)
+Puedes descargar las versiones disponibles desde los siguientes enlaces:
+
+- 🔹 [ElectroSim-Industrial.ova] (https://drive.google.com/file/d/16DrgNnvjaTWsu1X6gTXHzo8yGx8qA7Ob/view?usp=sharing)
+  Versión ligera sin entorno gráfico (modo terminal)
+
+- 🔸 [ElectroSim-Industrial-GUI.ova](ENLACE_AQUI)  
+  Versión completa con entorno gráfico XFCE
+
+> 📝 Asegúrate de que los archivos `.ova` estén completos tras la descarga antes de importarlos en VirtualBox.
+
+---
+
+🛠️ Requisitos
+
+- VirtualBox (v6.1 o superior recomendado)
 - Al menos 4 GB de RAM disponibles
 - 15–20 GB de espacio libre en disco
-- Archivo: `ElectroSim-Industrial.ova` (descargar desde el enlace proporcionado en el repositorio)
-  
----
-
-## 📥 Descarga la máquina virtual ElectroSim
-
-Puedes descargar el archivo `.ova` desde el siguiente enlace:
-
-🔗 [Descargar ElectroSim-Industrial.ova](https://drive.google.com/file/d/16DrgNnvjaTWsu1X6gTXHzo8yGx8qA7Ob/view?usp=sharing)
-
-> ⚠️ Asegúrate de importar esta máquina en VirtualBox como se indica a continuación.
 
 ---
 
-## 🛠️ Cómo importar la máquina virtual
+🚀 Cómo importar una máquina virtual en VirtualBox
 
 1. Abre **VirtualBox**
 2. Ve a: **Archivo → Importar servicio virtualizado**
-3. Selecciona el archivo `ElectroSim-Industrial.ova`
+3. Selecciona el archivo `.ova` descargado
 4. Haz clic en **Siguiente** y luego en **Importar**
 5. Espera unos minutos mientras se completa el proceso
 
 ---
 
-## 🔐 Credenciales de acceso
+🔐 Credenciales de acceso
 
 - **Usuario**: `vboxuser`
 - **Contraseña**: `insecure`
 
 ---
 
-## 📋 Servicios incluidos en la VM
+📋 Servicios incluidos en ambas versiones
 
 | Servicio        | Puerto | Descripción                                       |
 |------------------|--------|---------------------------------------------------|
-| InfluxDB         | 8086   | Almacenamiento de datos de sensores simulados    |
-| Grafana          | 3000   | Visualización de consumo, voltaje, etc.          |
-| Node-RED         | 1880   | Simulación visual de sensores/automatización     |
-| MariaDB          | 3306   | Datos de clientes o gestión interna               |
-| Mosquitto (MQTT) | 1883   | Comunicación tipo IoT                            |
-| Suricata         | —      | IDS básico para monitoreo de red                 |
+| InfluxDB         | 8086   | Almacenamiento de datos simulados                |
+| Grafana          | 3000   | Visualización de datos a través de dashboards    |
+| Node-RED         | 1880   | Creación visual de flujos de automatización      |
+| MariaDB          | 3306   | Gestión de datos tipo cliente/contrato           |
+| Mosquitto (MQTT) | 1883   | Comunicación IoT para sensores simulados         |
+| Suricata         | —      | Detección básica de intrusos (IDS)               |
 
 ---
 
-## 🔧 Recomendaciones
+🌐 Acceder a los servicios desde el navegador del host
 
-- Al iniciar, abre Grafana (`http://<IP_VM>:3000`) y Node-RED (`http://<IP_VM>:1880`) desde el navegador del host.
-- Puedes conectar directamente con InfluxDB desde Grafana para crear dashboards personalizados.
-- Usa `systemctl` para verificar que todos los servicios estén activos.
+- Grafana → `http://<IP_VM>:3000`
+- Node-RED → `http://<IP_VM>:1880`
+- InfluxDB API → `http://<IP_VM>:8086`
+
+> ℹ️ Puedes ver la IP real de la VM con: `ip a`
 
 ---
 
-## 🧑‍🏫 Propósito
+🧑‍🏫 Propósito
 
-Este entorno está diseñado como laboratorio de prácticas para aprender:
-- Cómo funcionan los sistemas eléctricos modernizados
-- Visualización de datos de consumo
-- Ciberseguridad industrial básica
-- Automatización y monitoreo en tiempo real
+ElectroSim Industrial está diseñado para enseñar y practicar:
+- Visualización de consumo eléctrico
+- Simulación de dispositivos IoT industriales
+- Automatización con PLCs y flujos lógicos
+- Introducción a la ciberseguridad industrial (ICS/SCADA)
 
 ---
 
