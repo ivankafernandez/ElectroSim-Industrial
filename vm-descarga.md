@@ -17,7 +17,7 @@ Esta guía explica cómo importar la máquina virtual educativa **ElectroSim Ind
 
 Puedes descargar el archivo `.ova` desde el siguiente enlace:
 
-🔗 [Descargar ElectroSim-Industrial.ova](https://drive.google.com/file/d/1npkY8r2pwsnP-QwDt3pgmkfhIqlqkbG4/view?usp=sharing)
+🔗 [Descargar ElectroSim-Industrial.ova](https://drive.google.com/file/d/16DrgNnvjaTWsu1X6gTXHzo8yGx8qA7Ob/view?usp=sharing)
 
 > ⚠️ Asegúrate de importar esta máquina en VirtualBox como se indica a continuación.
 
