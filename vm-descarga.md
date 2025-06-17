@@ -8,11 +8,11 @@ Esta guía explica cómo importar las máquinas virtuales educativas **ElectroSi
 
 Puedes descargar las versiones disponibles desde los siguientes enlaces:
 
-🔹 [ElectroSim-Industrial.ova] (https://drive.google.com/file/d/16DrgNnvjaTWsu1X6gTXHzo8yGx8qA7Ob/view?usp=sharing)
-  Versión ligera sin entorno gráfico (modo terminal)
+🔹 [ElectroSim-Industrial.ova] (https://drive.google.com/file/d/1aNL5RMOqwz4K3IqzReoBddE98N0kS_tY/view?usp=sharing)
+    Versión ligera sin entorno gráfico (modo terminal)
 
-🔸 [ElectroSim-Industrial-GUI.ova](ENLACE_AQUI)  
-  Versión completa con entorno gráfico XFCE
+🔸 [ElectroSim-Industrial-GUI.ova] (https://drive.google.com/file/d/1msG14d3ItzIRtTVhaLd9n29EHWXlOiDR/view?usp=sharing)  
+    Versión completa con entorno gráfico XFCE
 
 > 📝 Asegúrate de que los archivos `.ova` estén completos tras la descarga antes de importarlos en VirtualBox.
 
