@@ -21,32 +21,58 @@ Este entorno está pensado para estudiantes, docentes y profesionales que deseen
 
 ---
 
- 🚀 Cómo usar
-
-1. **Descarga la máquina virtual `.ova` desde el enlace incluido en este repositorio** (hay versión con y sin entorno gráfico).
-2. **Importa la VM en VirtualBox**:
-   - Menú → `Archivo → Importar servicio virtualizado`
-   - Selecciona el archivo `.ova` correspondiente y sigue los pasos
-3. **Credenciales de acceso**:
-   - Usuario: `vboxuser`
-   - Contraseña: `insecure`
-4. **Accede a los servicios desde tu navegador (host):**
-   - Grafana → `http://<IP_VM>:3000`
-   - Node-RED → `http://<IP_VM>:1880`
-   - InfluxDB (API HTTP) → `http://<IP_VM>:8086`
-
-> ℹ️ Reemplaza `<IP_VM>` por la IP real de la máquina virtual. Puedes verla desde la terminal con `ip a`.
-
----
-
 📦 Versiones disponibles
 
-- `ElectroSim-Industrial.ova` → Versión básica (sin entorno gráfico)
-- `ElectroSim-Industrial-GUI.ova` → Versión con entorno gráfico XFCE
+| Archivo                          | Descripción                                       |
+|----------------------------------|---------------------------------------------------|
+| `ElectroSim-Industrial.ova`      | Versión sin entorno gráfico (modo terminal)       |
+| `ElectroSim-Industrial-GUI.ova`  | Versión con entorno gráfico XFCE                  |
 
 ---
 
-📖 Consulta la carpeta [`Doc`](./Doc) para conocer más sobre el diseño y las decisiones técnicas del proyecto.
+📁 Descarga
+
+Puedes descargar las máquinas virtuales desde los enlaces a Google Drive incluidos en este repositorio:
+
+- 🔹 [ElectroSim-Industrial.ova](ENLACE_AQUÍ)
+- 🔸 [ElectroSim-Industrial-GUI.ova](ENLACE_AQUÍ)
+
+---
+
+🚀 Cómo usar
+
+1. Importa la `.ova` en VirtualBox:
+   - `Archivo → Importar servicio virtualizado`
+2. Inicia la VM y accede con:
+   - Usuario: `vboxuser`
+   - Contraseña: `insecure`
+3. Accede desde tu navegador (host) a:
+   - Grafana → `http://<IP_VM>:3000`
+   - Node-RED → `http://<IP_VM>:1880`
+   - InfluxDB → `http://<IP_VM>:8086/ping`
+
+> ℹ️ Reemplaza `<IP_VM>` por la IP de la máquina virtual (`ip a`)
+
+---
+
+🧪 Entorno listo para prácticas
+
+Esta máquina virtual no incluye flujos, dashboards ni datos precargados. Está intencionadamente configurada como un entorno limpio para que el usuario pueda practicar desde cero:
+
+- Crear flujos en Node-RED
+- Diseñar dashboards en Grafana
+- Insertar y consultar datos en InfluxDB
+- Aplicar configuraciones propias de automatización y seguridad
+
+---
+
+🔐 Credenciales de acceso
+
+- **Usuario**: `vboxuser`
+- **Contraseña**: `insecure`
+- **Grafana**:  
+  - Usuario: `admin`  
+  - Contraseña: `admin`
 
 ---
 
@@ -58,4 +84,5 @@ Puedes compartirlo y usarlo para prácticas educativas, pero **no puedes modific
 🔗 [Ver términos de la licencia](https://creativecommons.org/licenses/by-nd/4.0/)
 
 © 2025 Ivanka Fernández Leivas
+
 
