@@ -69,8 +69,8 @@ Esta máquina virtual no incluye flujos, dashboards ni datos precargados. Está 
 🔐 Credenciales de acceso
 
 - **Maquinas Virtuales**:
-       - Usuario: `vboxuser`  
-       - Contraseña: `insecure`
+     - Usuario: `vboxuser`  
+     - Contraseña: `insecure`
 - **Grafana**:  
      - Usuario: `admin`  
      - Contraseña: `admin`
