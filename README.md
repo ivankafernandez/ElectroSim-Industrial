@@ -77,7 +77,16 @@ Esta máquina virtual no incluye flujos, dashboards ni datos precargados. Está 
 
 ---
 
-### 👩‍💻 Autora
+📜 Licencia
+
+Este proyecto está bajo la licencia **Creative Commons CC BY-ND 4.0**.  
+Puedes compartirlo y usarlo para prácticas educativas, pero **no puedes modificarlo ni redistribuir versiones alteradas**.
+
+🔗 [Ver términos de la licencia](https://creativecommons.org/licenses/by-nd/4.0/)
+
+---
+
+👩‍💻 Autora
 
 Ivanka Fernández Leivas  
 💼 [LinkedIn](https://www.linkedin.com/in/ivankafernandez/)  
@@ -85,13 +94,6 @@ Ivanka Fernández Leivas
 📧 ivankafdez@gmail.com
 
 ---
-
-📜 Licencia
-
-Este proyecto está bajo la licencia **Creative Commons CC BY-ND 4.0**.  
-Puedes compartirlo y usarlo para prácticas educativas, pero **no puedes modificarlo ni redistribuir versiones alteradas**.
-
-🔗 [Ver términos de la licencia](https://creativecommons.org/licenses/by-nd/4.0/)
 
 © 2025 Ivanka Fernández Leivas
 
