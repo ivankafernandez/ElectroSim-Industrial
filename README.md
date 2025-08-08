@@ -77,6 +77,15 @@ Esta máquina virtual no incluye flujos, dashboards ni datos precargados. Está 
 
 ---
 
+### 👩‍💻 Autora
+
+Ivanka Fernández Leivas  
+💼 [LinkedIn](https://www.linkedin.com/in/ivankafernandez/)  
+📺 Canal: [@CiberPractica](https://www.youtube.com/@CiberPractica)  
+📧 ivankafdez@gmail.com
+
+---
+
 📜 Licencia
 
 Este proyecto está bajo la licencia **Creative Commons CC BY-ND 4.0**.  
