@@ -34,8 +34,8 @@ Este entorno está pensado para estudiantes, docentes y profesionales que deseen
 
 Puedes descargar las máquinas virtuales desde los enlaces a Google Drive incluidos en este repositorio:
 
-- 🔹 [ElectroSim-Industrial.ova](https://drive.google.com/file/d/1aNL5RMOqwz4K3IqzReoBddE98N0kS_tY/view?usp=sharing))
-- 🔸 [ElectroSim-Industrial-GUI.ova](ENLACE_AQUÍ)
+- 🔹 [ElectroSim-Industrial.ova](https://drive.google.com/file/d/1aNL5RMOqwz4K3IqzReoBddE98N0kS_tY/view?usp=sharing)
+- 🔸 [ElectroSim-Industrial-GUI.ova](https://drive.google.com/file/d/1msG14d3ItzIRtTVhaLd9n29EHWXlOiDR/view?usp=sharing)
 
 ---
 
