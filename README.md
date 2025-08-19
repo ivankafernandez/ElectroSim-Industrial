@@ -73,7 +73,7 @@ Esta máquina virtual no incluye flujos, dashboards ni datos precargados. Está 
      - Contraseña: `insecure`
 - **Grafana**:  
      - Usuario: `admin`  
-     - Contraseña: `admin`
+     - Contraseña: `admin` (NO FUNCIONA PERO PUEDES PERSONALIZAR DICHA CONTRASEÑA, ESTO SE REALIZA A TRAVÉS DE COMOMANDOS)
 
 ---
 
