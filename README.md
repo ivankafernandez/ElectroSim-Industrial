@@ -95,6 +95,10 @@ Ivanka Fernández Leivas
 
 ---
 
-© 2025 Ivanka Fernández Leivas
+ElectroSim® es un entorno de simulación industrial creado y desarrollado por Ivanka Fernández Leivas. 
+Todos los derechos reservados.
 
+---
+
+© 2025 Ivanka Fernández Leivas
 
